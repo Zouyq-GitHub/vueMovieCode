@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    background-image: url(../img/timg.jpg);
+    height: 1000px;
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #666666;
+    border-radius: 10%;
+    position: relative;
+    left: 20%;
+    top: 200px;
+    background-color: rgb(211, 211, 211);
+    opacity: 0.7;
+    box-shadow: 0px 0px 50px 5px;
+    text-align: center;
+}
+
+.icn {
+    width: 30px;
+    height: 30px;
+}
+
+.body-login {
+    width: 300px;
+    height: 305px;
+    margin-left: 50px;
+}
+
+.inp {
+    width: 270px;
+    height: 30px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.inpc {
+    background-color: white;
+    width: 270px;
+    height: 30px;
+}
+
+.inpc input {
+    width: 255px;
+    height: 24px;
+    border: 0;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 0px;
+}
+
+button a {
+    font-size: 16px;
+    font-weight: 200;
+    color: #000;
+    text-decoration: none;
+}
+
+.a {
+    float: right;
+}
+
+.y {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.b {
+    display: flex;
+    position: relative;
+    left: 5px;
+}
+
+.w a {
+    text-decoration: none;
+    color: #000;
+}
+
+.w {
+    margin-left: 125px;
+}
+
+.block {
+    width: 270px;
+    display: flex;
+}
+
+.block .n {
+    position: relative;
+    left: 235px;
+}
+
+.va {
+    font-size: 18px;
+    font-weight: 300;
+}
+.left_button{
+   float: left;
+   margin-left: 10px;
+}
+.gender{
+    height: 23px;
+    text-align: left;
+    margin-left: 5px;
+}
+.lookPassword{
+    width: 270px;
+    padding-left: 5px;
+    margin: auto;
+    text-align: left;
+    margin-top: 15px;
+    color: black;
+    cursor: pointer;
+}
+.ivu-modal-footer{
+    display: none;
+}
+.ivu-input-type-text{
+    width: 70% !important;
+}
+.ivu-modal-body{
+    padding-left: 40px;
+}
